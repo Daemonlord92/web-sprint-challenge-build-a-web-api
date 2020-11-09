@@ -44,7 +44,18 @@ router.post('/:id/actions', validateProjectId, validateActions, (req, res) =>{
 
 //UPDATE ROUTES
 
+router.put('/:id', validateProjectId, validateProject, (req, res) => {
+    const {id} = req.params;
+    const updatedProject = req.body;
 
+    Project.update(id, updatedProject)
+        .then(project => res.status(201).json({mes:'Project Updated', project}))
+        .catch(err => res.status(500).json({mes: 'Server Error', err}))
+})
+
+// DELETE ROUTES
+
+// MIDDLEWARE FUNCTIONS
 
 function validateProject(req,res,next){
     const project = req.body;
