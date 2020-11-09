@@ -24,6 +24,28 @@ router.put('/:id', validateByActionId, (req, res) => {
         .catch(err => res.status(500).json({mes: "Server Error", err}))
 })
 
+//DELETE ROUTES
+
+router.delete('/:id', (req, res) => {
+    const { id } = req.params
+
+    Action.remove(id)
+        .then(id => {
+            if (id === 0) {
+                res.status(400).json({ err: "That action doesn't exist"})
+            } else {
+                res.status(200).json({
+                    mes: 'Action destroyed'
+                })
+            }
+        })
+        .catch(err => {
+            res.status(404).json({
+                err: "Action not found"
+            })
+        })
+})
+
 // MIDDLEWARE FUNCTION
 
 function validateByActionId(req,res,next){
