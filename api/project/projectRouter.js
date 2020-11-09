@@ -55,6 +55,13 @@ router.put('/:id', validateProjectId, validateProject, (req, res) => {
 
 // DELETE ROUTES
 
+router.delete('/:id', validateProjectId, (req, res) => {
+    const {id} = req.params;
+    Project.remove(id)
+        .then(project => res.status(200).json({mes:"Project Removed", project}))
+        .catch(err => res.status(500).json({mes:"Server Error", err}))
+})
+
 // MIDDLEWARE FUNCTIONS
 
 function validateProject(req,res,next){

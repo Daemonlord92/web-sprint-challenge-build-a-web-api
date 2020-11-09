@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78393bac-f2d5-4af6-8ef5-796ce1cfef4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/project/projectRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/project/projectRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lambda.db3" beforeDir="false" afterPath="$PROJECT_DIR$/data/lambda.db3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604885671125</updated>
-      <workItem from="1604885672215" duration="5351000" />
+      <workItem from="1604885672215" duration="5590000" />
     </task>
     <servers />
   </component>
