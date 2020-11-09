@@ -1,5 +1,6 @@
 const express = require('express');
 const projectRouter = require('./api/project/projectRouter');
+const actionRouter = require('./api/actions/actionRouter');
 
 const helmet = require('helmet');
 
@@ -13,6 +14,7 @@ server.get('/', (req, res) => {
 });
 
 server.use('/projects', projectRouter);
+server.use('/actions', actionRouter);
 
 
 module.exports = server;
