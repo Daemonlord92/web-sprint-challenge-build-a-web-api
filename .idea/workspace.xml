@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78393bac-f2d5-4af6-8ef5-796ce1cfef4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/actions/actionRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/apiRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/project/projectRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/actions/actionRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/actions/actionRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/apiRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/project/projectRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/project/projectRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lambda.db3" beforeDir="false" afterPath="$PROJECT_DIR$/data/lambda.db3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +46,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604885671125</updated>
-      <workItem from="1604885672215" duration="323000" />
+      <workItem from="1604885672215" duration="2386000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-881" y="8" width="822" height="811" key="dock-window-1" timestamp="1604887767514">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-881" y="8" width="822" height="811" key="dock-window-1/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604887767514" />
   </component>
 </project>
