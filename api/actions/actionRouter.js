@@ -16,7 +16,13 @@ router.get('/:id', validateByActionId, (req, res) => {
         .catch(err => res.status(500).json({mes:'Server Error', err}))
 })
 
+//UPDATE ROUTES
 
+router.put('/:id', validateByActionId, (req, res) => {
+    Action.update(req.params.id, req.body)
+        .then(action => res.status(200).json({mes:'The Action is Update', action}))
+        .catch(err => res.status(500).json({mes: "Server Error", err}))
+})
 
 // MIDDLEWARE FUNCTION
 
